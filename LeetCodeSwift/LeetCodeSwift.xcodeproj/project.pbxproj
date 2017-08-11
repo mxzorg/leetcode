@@ -12,6 +12,7 @@
 		E188BE2A1F3A7C72004D0450 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E188BE281F3A7C72004D0450 /* Main.storyboard */; };
 		E188BE2C1F3A7C72004D0450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E188BE2B1F3A7C72004D0450 /* Assets.xcassets */; };
 		E188BE2F1F3A7C72004D0450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E188BE2D1F3A7C72004D0450 /* LaunchScreen.storyboard */; };
+		E188BE691F3D8B56004D0450 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = E188BE681F3D8B56004D0450 /* TwoSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		E188BE2B1F3A7C72004D0450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E188BE2E1F3A7C72004D0450 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E188BE301F3A7C72004D0450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E188BE681F3D8B56004D0450 /* TwoSum.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TwoSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		E188BE231F3A7C72004D0450 /* LeetCodeSwift */ = {
 			isa = PBXGroup;
 			children = (
+				E188BE671F3D8B40004D0450 /* Scheme */,
 				E188BE241F3A7C72004D0450 /* AppDelegate.swift */,
 				E188BE261F3A7C72004D0450 /* ViewController.swift */,
 				E188BE281F3A7C72004D0450 /* Main.storyboard */,
@@ -62,6 +65,14 @@
 				E188BE301F3A7C72004D0450 /* Info.plist */,
 			);
 			path = LeetCodeSwift;
+			sourceTree = "<group>";
+		};
+		E188BE671F3D8B40004D0450 /* Scheme */ = {
+			isa = PBXGroup;
+			children = (
+				E188BE681F3D8B56004D0450 /* TwoSum.swift */,
+			);
+			path = Scheme;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 			files = (
 				E188BE271F3A7C72004D0450 /* ViewController.swift in Sources */,
 				E188BE251F3A7C72004D0450 /* AppDelegate.swift in Sources */,
+				E188BE691F3D8B56004D0450 /* TwoSum.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +311,7 @@
 				E188BE351F3A7C72004D0450 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
