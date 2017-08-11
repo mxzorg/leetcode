@@ -13,6 +13,11 @@
 #import "AddTwoNumbers.h"
 #import "ReverseWords.h"
 #import "StringToInteger.h"
+#import "WithoutRepeatingCharacters.h"
+#import "LongestPalindromicSubstring.h"
+#import "ReverseInteger.h"
+#import "PalindromeNumber.h"
+#import "MostWater.h"
 
 
 @interface ViewController ()
@@ -45,15 +50,23 @@
 -(void) loadFunctionListData
 {
     NSArray *temp = @[
-                      @[@"LeetCode2", @"onAddTwoNumbers"],
-                      @[@"LeetCode8", @"onStringToInteger"],
+                      @[@"2.Add Two Numbers", @"on2"],
+                      @[@"3.Longest Substring Without Repeating", @"on3"],
+                      
+                      @[@"5.Longest Palindromic Substring", @"on5"],
+                      @[@"7.Reverse Integer", @"on7"],
+                      @[@"8.String to Integer (atoi) ", @"on8"],
+                      @[@"9.Palindrome Number", @"on9"],
+                      
+                      @[@"11.Container With Most Water", @"on11"],
+                      
                       @[@"LeetCode151", @"onReverseWords"],
                       ];
     
     self.functionList.dataArray = temp;
 }
 
--(void)onAddTwoNumbers
+-(void)on2
 {
     NSArray *num1 = @[@(1), @(2), @(3), @(4), @(5)];
     NSArray *num2 = @[@(3), @(2), @(1), @(9), @(2)];
@@ -66,12 +79,54 @@
     [self outputList:resList];
 }
 
--(void)onStringToInteger
+-(void)on3
+{
+    char *input = "abcabcbb"; // abcabcbb bbb aab
+    int output = lengthOfLongestSubstring(input);
+    
+    NSLog(@"%s=%d",input, output);
+}
+
+-(void)on5
+{
+    char *input = "abc"; // cbbd babad
+    char *output = longestPalindrome(input);
+    
+    NSLog(@"%s=%s", input, output);
+}
+
+-(void)on7
+{
+    int input = -2147483648;
+    int ouput = reverse(input);
+    
+    NSLog(@"%d=%d", input, ouput);
+}
+
+
+-(void)on8
 {
     char *str = "123123";
     
     printf("%d", myAtoi(str));
 }
+
+-(void)on9
+{
+    int input = 1;
+    int output = isPalindrome(input);
+    
+    NSLog(@"%d", output);
+}
+
+-(void)on11
+{
+    int input[] = {123,223,11};
+    int output = maxArea(input, 3);
+    
+    NSLog(@"%d", output);
+}
+
 
 -(void)onReverseWords
 {
@@ -81,14 +136,6 @@
     
     NSLog(@"%s", reverseWords(tstr));
 }
-
-
-
-
-
-
-
-
 
 #pragma mark - 辅助函数
 

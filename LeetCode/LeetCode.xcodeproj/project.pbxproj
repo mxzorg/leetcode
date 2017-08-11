@@ -17,6 +17,11 @@
 		E188BE511F3C161C004D0450 /* ReverseWords.c in Sources */ = {isa = PBXBuildFile; fileRef = E188BE4D1F3C161C004D0450 /* ReverseWords.c */; };
 		E188BE521F3C161C004D0450 /* StringToInteger.c in Sources */ = {isa = PBXBuildFile; fileRef = E188BE4F1F3C161C004D0450 /* StringToInteger.c */; };
 		E188BE551F3C162D004D0450 /* AddTwoNumbers.c in Sources */ = {isa = PBXBuildFile; fileRef = E188BE531F3C162D004D0450 /* AddTwoNumbers.c */; };
+		E188BE581F3C4A24004D0450 /* WithoutRepeatingCharacters.c in Sources */ = {isa = PBXBuildFile; fileRef = E188BE561F3C4A24004D0450 /* WithoutRepeatingCharacters.c */; };
+		E188BE5B1F3C5EBA004D0450 /* LongestPalindromicSubstring.c in Sources */ = {isa = PBXBuildFile; fileRef = E188BE591F3C5EBA004D0450 /* LongestPalindromicSubstring.c */; };
+		E188BE5E1F3C7F9D004D0450 /* ReverseInteger.c in Sources */ = {isa = PBXBuildFile; fileRef = E188BE5C1F3C7F9D004D0450 /* ReverseInteger.c */; };
+		E188BE611F3CAA9F004D0450 /* PalindromeNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = E188BE5F1F3CAA9F004D0450 /* PalindromeNumber.c */; };
+		E188BE641F3CB83D004D0450 /* MostWater.c in Sources */ = {isa = PBXBuildFile; fileRef = E188BE621F3CB83D004D0450 /* MostWater.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +43,16 @@
 		E188BE501F3C161C004D0450 /* StringToInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringToInteger.h; sourceTree = "<group>"; };
 		E188BE531F3C162D004D0450 /* AddTwoNumbers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AddTwoNumbers.c; sourceTree = "<group>"; };
 		E188BE541F3C162D004D0450 /* AddTwoNumbers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddTwoNumbers.h; sourceTree = "<group>"; };
+		E188BE561F3C4A24004D0450 /* WithoutRepeatingCharacters.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = WithoutRepeatingCharacters.c; sourceTree = "<group>"; };
+		E188BE571F3C4A24004D0450 /* WithoutRepeatingCharacters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WithoutRepeatingCharacters.h; sourceTree = "<group>"; };
+		E188BE591F3C5EBA004D0450 /* LongestPalindromicSubstring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LongestPalindromicSubstring.c; sourceTree = "<group>"; };
+		E188BE5A1F3C5EBA004D0450 /* LongestPalindromicSubstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongestPalindromicSubstring.h; sourceTree = "<group>"; };
+		E188BE5C1F3C7F9D004D0450 /* ReverseInteger.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ReverseInteger.c; sourceTree = "<group>"; };
+		E188BE5D1F3C7F9D004D0450 /* ReverseInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverseInteger.h; sourceTree = "<group>"; };
+		E188BE5F1F3CAA9F004D0450 /* PalindromeNumber.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = PalindromeNumber.c; sourceTree = "<group>"; };
+		E188BE601F3CAA9F004D0450 /* PalindromeNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalindromeNumber.h; sourceTree = "<group>"; };
+		E188BE621F3CB83D004D0450 /* MostWater.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MostWater.c; sourceTree = "<group>"; };
+		E188BE631F3CB83D004D0450 /* MostWater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MostWater.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +118,16 @@
 				E188BE4E1F3C161C004D0450 /* ReverseWords.h */,
 				E188BE4F1F3C161C004D0450 /* StringToInteger.c */,
 				E188BE501F3C161C004D0450 /* StringToInteger.h */,
+				E188BE561F3C4A24004D0450 /* WithoutRepeatingCharacters.c */,
+				E188BE571F3C4A24004D0450 /* WithoutRepeatingCharacters.h */,
+				E188BE591F3C5EBA004D0450 /* LongestPalindromicSubstring.c */,
+				E188BE5A1F3C5EBA004D0450 /* LongestPalindromicSubstring.h */,
+				E188BE5C1F3C7F9D004D0450 /* ReverseInteger.c */,
+				E188BE5D1F3C7F9D004D0450 /* ReverseInteger.h */,
+				E188BE5F1F3CAA9F004D0450 /* PalindromeNumber.c */,
+				E188BE601F3CAA9F004D0450 /* PalindromeNumber.h */,
+				E188BE621F3CB83D004D0450 /* MostWater.c */,
+				E188BE631F3CB83D004D0450 /* MostWater.h */,
 			);
 			path = Scheme;
 			sourceTree = "<group>";
@@ -178,13 +203,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E188BE581F3C4A24004D0450 /* WithoutRepeatingCharacters.c in Sources */,
 				E188BE521F3C161C004D0450 /* StringToInteger.c in Sources */,
+				E188BE611F3CAA9F004D0450 /* PalindromeNumber.c in Sources */,
 				E188BE091F3A7C25004D0450 /* ViewController.m in Sources */,
 				E188BE061F3A7C25004D0450 /* AppDelegate.m in Sources */,
 				E188BE551F3C162D004D0450 /* AddTwoNumbers.c in Sources */,
 				E188BE3E1F3BF8D6004D0450 /* MxFunctionList.m in Sources */,
 				E188BE031F3A7C25004D0450 /* main.m in Sources */,
 				E188BE511F3C161C004D0450 /* ReverseWords.c in Sources */,
+				E188BE5B1F3C5EBA004D0450 /* LongestPalindromicSubstring.c in Sources */,
+				E188BE641F3CB83D004D0450 /* MostWater.c in Sources */,
+				E188BE5E1F3C7F9D004D0450 /* ReverseInteger.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
