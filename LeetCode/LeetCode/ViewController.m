@@ -18,6 +18,8 @@
 #import "ReverseInteger.h"
 #import "PalindromeNumber.h"
 #import "MostWater.h"
+#import "IntegerToRoman.h"
+#import "RomanToInteger.h"
 
 
 @interface ViewController ()
@@ -59,6 +61,8 @@
                       @[@"9.Palindrome Number", @"on9"],
                       
                       @[@"11.Container With Most Water", @"on11"],
+                      @[@"12.Integer to Roman", @"on12"],
+                      @[@"13.Roman to Integer", @"on13"],
                       
                       @[@"LeetCode151", @"onReverseWords"],
                       ];
@@ -127,6 +131,22 @@
     NSLog(@"%d", output);
 }
 
+-(void)on12
+{
+    int input = 1234;
+    char *output = intToRoman(input);
+    
+    NSLog(@"%s", output);
+}
+
+-(void)on13
+{
+    char *input = "MCMXCVI";
+    int output = romanToInt(input);
+    
+    NSLog(@"%d", output);
+    
+}
 
 -(void)onReverseWords
 {

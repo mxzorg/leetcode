@@ -22,6 +22,8 @@
 		E188BE5E1F3C7F9D004D0450 /* ReverseInteger.c in Sources */ = {isa = PBXBuildFile; fileRef = E188BE5C1F3C7F9D004D0450 /* ReverseInteger.c */; };
 		E188BE611F3CAA9F004D0450 /* PalindromeNumber.c in Sources */ = {isa = PBXBuildFile; fileRef = E188BE5F1F3CAA9F004D0450 /* PalindromeNumber.c */; };
 		E188BE641F3CB83D004D0450 /* MostWater.c in Sources */ = {isa = PBXBuildFile; fileRef = E188BE621F3CB83D004D0450 /* MostWater.c */; };
+		E188BE6C1F3DA61D004D0450 /* IntegerToRoman.c in Sources */ = {isa = PBXBuildFile; fileRef = E188BE6A1F3DA61D004D0450 /* IntegerToRoman.c */; };
+		E188BE6F1F3DAAC5004D0450 /* RomanToInteger.c in Sources */ = {isa = PBXBuildFile; fileRef = E188BE6D1F3DAAC5004D0450 /* RomanToInteger.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,10 @@
 		E188BE601F3CAA9F004D0450 /* PalindromeNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PalindromeNumber.h; sourceTree = "<group>"; };
 		E188BE621F3CB83D004D0450 /* MostWater.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MostWater.c; sourceTree = "<group>"; };
 		E188BE631F3CB83D004D0450 /* MostWater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MostWater.h; sourceTree = "<group>"; };
+		E188BE6A1F3DA61D004D0450 /* IntegerToRoman.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IntegerToRoman.c; sourceTree = "<group>"; };
+		E188BE6B1F3DA61D004D0450 /* IntegerToRoman.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntegerToRoman.h; sourceTree = "<group>"; };
+		E188BE6D1F3DAAC5004D0450 /* RomanToInteger.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = RomanToInteger.c; sourceTree = "<group>"; };
+		E188BE6E1F3DAAC5004D0450 /* RomanToInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RomanToInteger.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,10 @@
 				E188BE601F3CAA9F004D0450 /* PalindromeNumber.h */,
 				E188BE621F3CB83D004D0450 /* MostWater.c */,
 				E188BE631F3CB83D004D0450 /* MostWater.h */,
+				E188BE6A1F3DA61D004D0450 /* IntegerToRoman.c */,
+				E188BE6B1F3DA61D004D0450 /* IntegerToRoman.h */,
+				E188BE6D1F3DAAC5004D0450 /* RomanToInteger.c */,
+				E188BE6E1F3DAAC5004D0450 /* RomanToInteger.h */,
 			);
 			path = Scheme;
 			sourceTree = "<group>";
@@ -204,6 +214,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E188BE581F3C4A24004D0450 /* WithoutRepeatingCharacters.c in Sources */,
+				E188BE6C1F3DA61D004D0450 /* IntegerToRoman.c in Sources */,
 				E188BE521F3C161C004D0450 /* StringToInteger.c in Sources */,
 				E188BE611F3CAA9F004D0450 /* PalindromeNumber.c in Sources */,
 				E188BE091F3A7C25004D0450 /* ViewController.m in Sources */,
@@ -211,6 +222,7 @@
 				E188BE551F3C162D004D0450 /* AddTwoNumbers.c in Sources */,
 				E188BE3E1F3BF8D6004D0450 /* MxFunctionList.m in Sources */,
 				E188BE031F3A7C25004D0450 /* main.m in Sources */,
+				E188BE6F1F3DAAC5004D0450 /* RomanToInteger.c in Sources */,
 				E188BE511F3C161C004D0450 /* ReverseWords.c in Sources */,
 				E188BE5B1F3C5EBA004D0450 /* LongestPalindromicSubstring.c in Sources */,
 				E188BE641F3CB83D004D0450 /* MostWater.c in Sources */,
