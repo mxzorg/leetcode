@@ -28,3 +28,32 @@ char* reverseWords(char *s)
     
     return s;
 }
+
+char* reverseWords2(char *str)
+{
+    int i = 0;
+    while (1)
+    {
+        if (str[i] == ' '){
+            
+            i++;
+            continue;
+        }
+        if (i == strlen(str))
+        {
+            return "";
+        }
+        
+        str[i] = str[strlen(str)-i-1]+str[i];
+        str[strlen(str)-i-1] = str[i]-str[strlen(str)-i-1];
+        str[i] = str[i]-str[strlen(str)-i-1];
+        
+        if (i > strlen(str) / 2)
+        {
+            break;
+        }
+        i++;
+    }
+    
+    return str;
+}

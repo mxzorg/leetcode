@@ -9,9 +9,8 @@
 #ifndef ReverseWords_h
 #define ReverseWords_h
 
-#include <stdio.h>
-#include <stdlib.h>
-
 char* reverseWords(char *s);
+
+char* reverseWords2(char *str);
 
 #endif /* ReverseWords_h */

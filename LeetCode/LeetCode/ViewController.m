@@ -150,11 +150,11 @@
 
 -(void)onReverseWords
 {
-    char *str = "Hello world";
+    char *str = "abc";
     char * tstr = (char*)malloc(strlen(str)+1);
     strcpy(tstr, str);
     
-    NSLog(@"%s", reverseWords(tstr));
+    NSLog(@"%s", reverseWords2(tstr));
 }
 
 #pragma mark - 辅助函数
