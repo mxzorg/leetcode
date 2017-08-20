@@ -35,5 +35,5 @@ int reverse(int x)
         res = res*10;
     }
     
-    return res;
+    return (int)res;
 }

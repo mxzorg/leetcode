@@ -20,7 +20,7 @@
 #import "MostWater.h"
 #import "IntegerToRoman.h"
 #import "RomanToInteger.h"
-
+#import "MergeTwoSortedLists.h"
 
 @interface ViewController ()
 
@@ -63,6 +63,8 @@
                       @[@"11.Container With Most Water", @"on11"],
                       @[@"12.Integer to Roman", @"on12"],
                       @[@"13.Roman to Integer", @"on13"],
+                      
+                      @[@"21.Merge Two Sorted Lists", @"on21"],
                       
                       @[@"LeetCode151", @"onReverseWords"],
                       ];
@@ -146,6 +148,19 @@
     
     NSLog(@"%d", output);
     
+}
+
+-(void)on21
+{
+    NSArray *num1 = @[@(1), @(2), @(7), @(8), @(9)];
+    NSArray *num2 = @[@(2), @(4), @(6), @(9), @(9)];
+    
+    struct ListNode * numList1 = [self createItemWithArray:num1];
+    struct ListNode * numList2 = [self createItemWithArray:num2];
+    
+    struct ListNode * resList = mergeTwoLists(numList1, numList2);
+    
+    [self outputList:resList];
 }
 
 -(void)onReverseWords

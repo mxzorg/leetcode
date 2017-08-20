@@ -9,14 +9,7 @@
 #ifndef AddTwoNumbers_h
 #define AddTwoNumbers_h
 
-#include <stdio.h>
-#include <stdlib.h>
-
-struct ListNode {
-    
-    int val;
-    struct ListNode *next;
-};
+#include "Common.h"
 
 struct ListNode* addTwoNumbers(struct ListNode* l1, struct ListNode* l2);
 
