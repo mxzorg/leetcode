@@ -10,17 +10,10 @@
 
 #import "MxFunctionList.h"
 
-#import "AddTwoNumbers.h"
-#import "ReverseWords.h"
-#import "StringToInteger.h"
-#import "WithoutRepeatingCharacters.h"
-#import "LongestPalindromicSubstring.h"
-#import "ReverseInteger.h"
-#import "PalindromeNumber.h"
-#import "MostWater.h"
-#import "IntegerToRoman.h"
-#import "RomanToInteger.h"
-#import "MergeTwoSortedLists.h"
+
+#include "MxCommon.h"
+
+
 
 @interface ViewController ()
 
@@ -64,6 +57,7 @@
                       @[@"12.Integer to Roman", @"on12"],
                       @[@"13.Roman to Integer", @"on13"],
                       
+                      @[@"20.Valid Parentheses", @"on20"],
                       @[@"21.Merge Two Sorted Lists", @"on21"],
                       
                       @[@"LeetCode151", @"onReverseWords"],
@@ -148,6 +142,14 @@
     
     NSLog(@"%d", output);
     
+}
+
+-(void)on20
+{
+    char *input = "[";
+    bool output = isValid(input);
+    
+    NSLog(@"%@", output?@"匹配":@"未匹配");
 }
 
 -(void)on21

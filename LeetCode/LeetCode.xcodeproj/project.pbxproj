@@ -25,6 +25,8 @@
 		E188BE6C1F3DA61D004D0450 /* IntegerToRoman.c in Sources */ = {isa = PBXBuildFile; fileRef = E188BE6A1F3DA61D004D0450 /* IntegerToRoman.c */; };
 		E188BE6F1F3DAAC5004D0450 /* RomanToInteger.c in Sources */ = {isa = PBXBuildFile; fileRef = E188BE6D1F3DAAC5004D0450 /* RomanToInteger.c */; };
 		E188BE961F4922F6004D0450 /* MergeTwoSortedLists.c in Sources */ = {isa = PBXBuildFile; fileRef = E188BE941F4922F6004D0450 /* MergeTwoSortedLists.c */; };
+		E1CC72C81F4AC58A002FB390 /* ValidParentheses.c in Sources */ = {isa = PBXBuildFile; fileRef = E1CC72C61F4AC58A002FB390 /* ValidParentheses.c */; };
+		E1CC72CB1F4AD47D002FB390 /* MxCommon.c in Sources */ = {isa = PBXBuildFile; fileRef = E1CC72C91F4AD47D002FB390 /* MxCommon.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,7 +64,10 @@
 		E188BE6E1F3DAAC5004D0450 /* RomanToInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RomanToInteger.h; sourceTree = "<group>"; };
 		E188BE941F4922F6004D0450 /* MergeTwoSortedLists.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MergeTwoSortedLists.c; sourceTree = "<group>"; };
 		E188BE951F4922F6004D0450 /* MergeTwoSortedLists.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeTwoSortedLists.h; sourceTree = "<group>"; };
-		E188BE971F49233A004D0450 /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		E1CC72C61F4AC58A002FB390 /* ValidParentheses.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ValidParentheses.c; sourceTree = "<group>"; };
+		E1CC72C71F4AC58A002FB390 /* ValidParentheses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidParentheses.h; sourceTree = "<group>"; };
+		E1CC72C91F4AD47D002FB390 /* MxCommon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MxCommon.c; sourceTree = "<group>"; };
+		E1CC72CA1F4AD47D002FB390 /* MxCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MxCommon.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,7 +127,8 @@
 		E188BE4C1F3C161C004D0450 /* Scheme */ = {
 			isa = PBXGroup;
 			children = (
-				E188BE971F49233A004D0450 /* Common.h */,
+				E1CC72C91F4AD47D002FB390 /* MxCommon.c */,
+				E1CC72CA1F4AD47D002FB390 /* MxCommon.h */,
 				E188BE531F3C162D004D0450 /* AddTwoNumbers.c */,
 				E188BE541F3C162D004D0450 /* AddTwoNumbers.h */,
 				E188BE4D1F3C161C004D0450 /* ReverseWords.c */,
@@ -145,6 +151,8 @@
 				E188BE6E1F3DAAC5004D0450 /* RomanToInteger.h */,
 				E188BE941F4922F6004D0450 /* MergeTwoSortedLists.c */,
 				E188BE951F4922F6004D0450 /* MergeTwoSortedLists.h */,
+				E1CC72C61F4AC58A002FB390 /* ValidParentheses.c */,
+				E1CC72C71F4AC58A002FB390 /* ValidParentheses.h */,
 			);
 			path = Scheme;
 			sourceTree = "<group>";
@@ -222,9 +230,11 @@
 			files = (
 				E188BE581F3C4A24004D0450 /* WithoutRepeatingCharacters.c in Sources */,
 				E188BE6C1F3DA61D004D0450 /* IntegerToRoman.c in Sources */,
+				E1CC72CB1F4AD47D002FB390 /* MxCommon.c in Sources */,
 				E188BE961F4922F6004D0450 /* MergeTwoSortedLists.c in Sources */,
 				E188BE521F3C161C004D0450 /* StringToInteger.c in Sources */,
 				E188BE611F3CAA9F004D0450 /* PalindromeNumber.c in Sources */,
+				E1CC72C81F4AC58A002FB390 /* ValidParentheses.c in Sources */,
 				E188BE091F3A7C25004D0450 /* ViewController.m in Sources */,
 				E188BE061F3A7C25004D0450 /* AppDelegate.m in Sources */,
 				E188BE551F3C162D004D0450 /* AddTwoNumbers.c in Sources */,
