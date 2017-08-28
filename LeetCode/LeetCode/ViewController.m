@@ -56,6 +56,7 @@
                       @[@"11.Container With Most Water", @"on11"],
                       @[@"12.Integer to Roman", @"on12"],
                       @[@"13.Roman to Integer", @"on13"],
+                      @[@"14.Longest Common Prefix", @"on14"],
                       
                       @[@"20.Valid Parentheses", @"on20"],
                       @[@"21.Merge Two Sorted Lists", @"on21"],
@@ -142,6 +143,14 @@
     
     NSLog(@"%d", output);
     
+}
+
+-(void)on14
+{
+    char *input[] = {"ab", "aa"};
+    char *output = longestCommonPrefix(input, 2);
+    
+    NSLog(@"%s", output);
 }
 
 -(void)on20

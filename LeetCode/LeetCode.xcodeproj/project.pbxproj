@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E141994E1F542FD200136735 /* LongestCommonPrefix.c in Sources */ = {isa = PBXBuildFile; fileRef = E141994C1F542FD200136735 /* LongestCommonPrefix.c */; };
 		E188BE031F3A7C25004D0450 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E188BE021F3A7C25004D0450 /* main.m */; };
 		E188BE061F3A7C25004D0450 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E188BE051F3A7C25004D0450 /* AppDelegate.m */; };
 		E188BE091F3A7C25004D0450 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E188BE081F3A7C25004D0450 /* ViewController.m */; };
@@ -30,6 +31,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E141994C1F542FD200136735 /* LongestCommonPrefix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LongestCommonPrefix.c; sourceTree = "<group>"; };
+		E141994D1F542FD200136735 /* LongestCommonPrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongestCommonPrefix.h; sourceTree = "<group>"; };
 		E188BDFE1F3A7C25004D0450 /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E188BE021F3A7C25004D0450 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E188BE041F3A7C25004D0450 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -153,6 +156,8 @@
 				E188BE951F4922F6004D0450 /* MergeTwoSortedLists.h */,
 				E1CC72C61F4AC58A002FB390 /* ValidParentheses.c */,
 				E1CC72C71F4AC58A002FB390 /* ValidParentheses.h */,
+				E141994C1F542FD200136735 /* LongestCommonPrefix.c */,
+				E141994D1F542FD200136735 /* LongestCommonPrefix.h */,
 			);
 			path = Scheme;
 			sourceTree = "<group>";
@@ -231,6 +236,7 @@
 				E188BE581F3C4A24004D0450 /* WithoutRepeatingCharacters.c in Sources */,
 				E188BE6C1F3DA61D004D0450 /* IntegerToRoman.c in Sources */,
 				E1CC72CB1F4AD47D002FB390 /* MxCommon.c in Sources */,
+				E141994E1F542FD200136735 /* LongestCommonPrefix.c in Sources */,
 				E188BE961F4922F6004D0450 /* MergeTwoSortedLists.c in Sources */,
 				E188BE521F3C161C004D0450 /* StringToInteger.c in Sources */,
 				E188BE611F3CAA9F004D0450 /* PalindromeNumber.c in Sources */,

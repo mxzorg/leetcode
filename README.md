@@ -82,6 +82,10 @@ Given a roman numeral, convert it to an integer.
 Input is guaranteed to be within the range from 1 to 3999.
 
 
+# 14. Longest Common Prefix
+
+Write a function to find the longest common prefix string amongst an array of strings. 
+
 # 20. Valid Parentheses
 
 Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid.
