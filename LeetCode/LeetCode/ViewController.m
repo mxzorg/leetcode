@@ -60,7 +60,9 @@
                       
                       @[@"20.Valid Parentheses", @"on20"],
                       @[@"21.Merge Two Sorted Lists", @"on21"],
+                      
                       @[@"26.Remove Duplicates from Sorted Array", @"on26"],
+                      @[@"27.Remove Element", @"on27"],
                       
                       @[@"LeetCode151", @"onReverseWords"],
                       ];
@@ -179,6 +181,15 @@
 {
     int array[10] = {2,3,3,3,44,44,50,66,66,66};
     int len = removeDuplicates(array, 10);
+    for (int i = 0; i < len; i++) {
+        printf("%d", array[i]);
+    }
+}
+
+-(void)on27
+{
+    int array[10] = {2,3,3,3,44,44,50,66,66,66};
+    int len = removeElement(array, 10, 3);
     for (int i = 0; i < len; i++) {
         printf("%d", array[i]);
     }
