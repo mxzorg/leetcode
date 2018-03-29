@@ -60,6 +60,7 @@
                       
                       @[@"20.Valid Parentheses", @"on20"],
                       @[@"21.Merge Two Sorted Lists", @"on21"],
+                      @[@"26.Remove Duplicates from Sorted Array", @"on26"],
                       
                       @[@"LeetCode151", @"onReverseWords"],
                       ];
@@ -172,6 +173,15 @@
     struct ListNode * resList = mergeTwoLists(numList1, numList2);
     
     [self outputList:resList];
+}
+
+-(void)on26
+{
+    int array[10] = {2,3,3,3,44,44,50,66,66,66};
+    int len = removeDuplicates(array, 10);
+    for (int i = 0; i < len; i++) {
+        printf("%d", array[i]);
+    }
 }
 
 -(void)onReverseWords

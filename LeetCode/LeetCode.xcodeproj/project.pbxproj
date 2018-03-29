@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E13553EA206D4042009C7EFA /* RemoveDuplicates.c in Sources */ = {isa = PBXBuildFile; fileRef = E13553E8206D4042009C7EFA /* RemoveDuplicates.c */; };
 		E141994E1F542FD200136735 /* LongestCommonPrefix.c in Sources */ = {isa = PBXBuildFile; fileRef = E141994C1F542FD200136735 /* LongestCommonPrefix.c */; };
 		E188BE031F3A7C25004D0450 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E188BE021F3A7C25004D0450 /* main.m */; };
 		E188BE061F3A7C25004D0450 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E188BE051F3A7C25004D0450 /* AppDelegate.m */; };
@@ -31,6 +32,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E13553E8206D4042009C7EFA /* RemoveDuplicates.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = RemoveDuplicates.c; sourceTree = "<group>"; };
+		E13553E9206D4042009C7EFA /* RemoveDuplicates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoveDuplicates.h; sourceTree = "<group>"; };
 		E141994C1F542FD200136735 /* LongestCommonPrefix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LongestCommonPrefix.c; sourceTree = "<group>"; };
 		E141994D1F542FD200136735 /* LongestCommonPrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongestCommonPrefix.h; sourceTree = "<group>"; };
 		E188BDFE1F3A7C25004D0450 /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -158,6 +161,8 @@
 				E1CC72C71F4AC58A002FB390 /* ValidParentheses.h */,
 				E141994C1F542FD200136735 /* LongestCommonPrefix.c */,
 				E141994D1F542FD200136735 /* LongestCommonPrefix.h */,
+				E13553E8206D4042009C7EFA /* RemoveDuplicates.c */,
+				E13553E9206D4042009C7EFA /* RemoveDuplicates.h */,
 			);
 			path = Scheme;
 			sourceTree = "<group>";
@@ -188,7 +193,7 @@
 		E188BDF61F3A7C25004D0450 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = Mxz;
 				TargetAttributes = {
 					E188BDFD1F3A7C25004D0450 = {
@@ -242,6 +247,7 @@
 				E188BE611F3CAA9F004D0450 /* PalindromeNumber.c in Sources */,
 				E1CC72C81F4AC58A002FB390 /* ValidParentheses.c in Sources */,
 				E188BE091F3A7C25004D0450 /* ViewController.m in Sources */,
+				E13553EA206D4042009C7EFA /* RemoveDuplicates.c in Sources */,
 				E188BE061F3A7C25004D0450 /* AppDelegate.m in Sources */,
 				E188BE551F3C162D004D0450 /* AddTwoNumbers.c in Sources */,
 				E188BE3E1F3BF8D6004D0450 /* MxFunctionList.m in Sources */,
@@ -286,7 +292,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -294,7 +302,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -334,7 +346,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -342,7 +356,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
