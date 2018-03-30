@@ -22,12 +22,12 @@ int removeElement(int* nums, int numsSize, int val) {
         }
     }
     
-    int i = 1;
-    while (i < numsSize) {
-        if (val == nums[i-1]) {
-            nums[i-1] = nums[i];
+    int i = 0, j = 0;
+    while (i < numsSize && j < numsSize) {
+        if (val == nums[j]) {
+            j++;
         }else{
-            i++;
+            nums[i++] = nums[j++];
         }
     }
     return i;

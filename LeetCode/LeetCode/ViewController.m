@@ -63,6 +63,7 @@
                       
                       @[@"26.Remove Duplicates from Sorted Array", @"on26"],
                       @[@"27.Remove Element", @"on27"],
+                      @[@"28.Implement strStr", @"on28"],
                       
                       @[@"LeetCode151", @"onReverseWords"],
                       ];
@@ -193,6 +194,14 @@
     for (int i = 0; i < len; i++) {
         printf("%d", array[i]);
     }
+}
+
+-(void)on28
+{
+    char *str1 = "hello world";
+    char *str2 = "llo";
+    int index = MyStrStr(str1, str2);
+    printf("%d", index);
 }
 
 -(void)onReverseWords
