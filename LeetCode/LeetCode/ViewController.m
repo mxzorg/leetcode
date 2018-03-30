@@ -65,6 +65,9 @@
                       @[@"27.Remove Element", @"on27"],
                       @[@"28.Implement strStr", @"on28"],
                       
+                      @[@"35.Search Insert Position", @"on35"],
+                      
+                      
                       @[@"LeetCode151", @"onReverseWords"],
                       ];
     
@@ -203,6 +206,15 @@
     int index = MyStrStr(str1, str2);
     printf("%d", index);
 }
+
+-(void)on35
+{
+    int src[] = {1,2,3,4,6,7};
+    int target = 0;
+    int index = searchInsert(src, 6, target);
+    printf("%d", index);
+}
+
 
 -(void)onReverseWords
 {

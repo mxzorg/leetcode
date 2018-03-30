@@ -10,6 +10,7 @@
 		E13553EA206D4042009C7EFA /* RemoveDuplicates.c in Sources */ = {isa = PBXBuildFile; fileRef = E13553E8206D4042009C7EFA /* RemoveDuplicates.c */; };
 		E141994E1F542FD200136735 /* LongestCommonPrefix.c in Sources */ = {isa = PBXBuildFile; fileRef = E141994C1F542FD200136735 /* LongestCommonPrefix.c */; };
 		E170E2FC206DCDF10062758F /* MyStrStr.c in Sources */ = {isa = PBXBuildFile; fileRef = E170E2FA206DCDF10062758F /* MyStrStr.c */; };
+		E170E2FF206DD5000062758F /* SearchInsert.c in Sources */ = {isa = PBXBuildFile; fileRef = E170E2FD206DD5000062758F /* SearchInsert.c */; };
 		E188BE031F3A7C25004D0450 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E188BE021F3A7C25004D0450 /* main.m */; };
 		E188BE061F3A7C25004D0450 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E188BE051F3A7C25004D0450 /* AppDelegate.m */; };
 		E188BE091F3A7C25004D0450 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E188BE081F3A7C25004D0450 /* ViewController.m */; };
@@ -40,6 +41,8 @@
 		E141994D1F542FD200136735 /* LongestCommonPrefix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongestCommonPrefix.h; sourceTree = "<group>"; };
 		E170E2FA206DCDF10062758F /* MyStrStr.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MyStrStr.c; sourceTree = "<group>"; };
 		E170E2FB206DCDF10062758F /* MyStrStr.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyStrStr.h; sourceTree = "<group>"; };
+		E170E2FD206DD5000062758F /* SearchInsert.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = SearchInsert.c; sourceTree = "<group>"; };
+		E170E2FE206DD5000062758F /* SearchInsert.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SearchInsert.h; sourceTree = "<group>"; };
 		E188BDFE1F3A7C25004D0450 /* LeetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LeetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E188BE021F3A7C25004D0450 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E188BE041F3A7C25004D0450 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -173,6 +176,8 @@
 				E194D8BC206DA25A00B43467 /* RemoveElement.h */,
 				E170E2FA206DCDF10062758F /* MyStrStr.c */,
 				E170E2FB206DCDF10062758F /* MyStrStr.h */,
+				E170E2FD206DD5000062758F /* SearchInsert.c */,
+				E170E2FE206DD5000062758F /* SearchInsert.h */,
 			);
 			path = Scheme;
 			sourceTree = "<group>";
@@ -262,6 +267,7 @@
 				E170E2FC206DCDF10062758F /* MyStrStr.c in Sources */,
 				E188BE061F3A7C25004D0450 /* AppDelegate.m in Sources */,
 				E188BE551F3C162D004D0450 /* AddTwoNumbers.c in Sources */,
+				E170E2FF206DD5000062758F /* SearchInsert.c in Sources */,
 				E188BE3E1F3BF8D6004D0450 /* MxFunctionList.m in Sources */,
 				E188BE031F3A7C25004D0450 /* main.m in Sources */,
 				E188BE6F1F3DAAC5004D0450 /* RomanToInteger.c in Sources */,

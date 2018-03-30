@@ -25,6 +25,8 @@
 #include "RemoveDuplicates.h"
 #include "RemoveElement.h"
 #include "MyStrStr.h"
+#include "SearchInsert.h"
+
 
 struct ListNode {
     
