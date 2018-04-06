@@ -35,7 +35,7 @@
     
     [self loadFunctionListData];
     
-    [self on151];
+    [self on53];
 }
 
 
@@ -71,7 +71,7 @@
                       
                       @[@"53.Maximum Subarray", @"on53"],
                       
-                      @[@"151.Reverse Words in a String", @"on151"],
+                      @[@"151.Reverse Words in a String", @"on151"], //未通过
                       ];
     
     self.functionList.dataArray = temp;
@@ -233,11 +233,10 @@
 
 -(void)on151
 {
-    char *str = " ";
+    char *str = "hello world";
     char * tstr = (char*)malloc(strlen(str)+1);
     strcpy(tstr, str);
-    
-    NSLog(@"%s", reverseWords2(tstr));
+    NSLog(@"%s", reverseWords(str));
 }
 
 #pragma mark - 辅助函数
