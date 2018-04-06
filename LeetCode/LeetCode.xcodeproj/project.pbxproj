@@ -30,6 +30,7 @@
 		E188BE6F1F3DAAC5004D0450 /* RomanToInteger.c in Sources */ = {isa = PBXBuildFile; fileRef = E188BE6D1F3DAAC5004D0450 /* RomanToInteger.c */; };
 		E188BE961F4922F6004D0450 /* MergeTwoSortedLists.c in Sources */ = {isa = PBXBuildFile; fileRef = E188BE941F4922F6004D0450 /* MergeTwoSortedLists.c */; };
 		E194D8BD206DA25A00B43467 /* RemoveElement.c in Sources */ = {isa = PBXBuildFile; fileRef = E194D8BB206DA25A00B43467 /* RemoveElement.c */; };
+		E1C6B8FE20767CC3005B2B1A /* MaxSubArray.c in Sources */ = {isa = PBXBuildFile; fileRef = E1C6B8FD20767CC3005B2B1A /* MaxSubArray.c */; };
 		E1CC72C81F4AC58A002FB390 /* ValidParentheses.c in Sources */ = {isa = PBXBuildFile; fileRef = E1CC72C61F4AC58A002FB390 /* ValidParentheses.c */; };
 		E1CC72CB1F4AD47D002FB390 /* MxCommon.c in Sources */ = {isa = PBXBuildFile; fileRef = E1CC72C91F4AD47D002FB390 /* MxCommon.c */; };
 /* End PBXBuildFile section */
@@ -79,6 +80,8 @@
 		E188BE951F4922F6004D0450 /* MergeTwoSortedLists.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MergeTwoSortedLists.h; sourceTree = "<group>"; };
 		E194D8BB206DA25A00B43467 /* RemoveElement.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = RemoveElement.c; sourceTree = "<group>"; };
 		E194D8BC206DA25A00B43467 /* RemoveElement.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoveElement.h; sourceTree = "<group>"; };
+		E1C6B8FC20767CC3005B2B1A /* MaxSubArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MaxSubArray.h; sourceTree = "<group>"; };
+		E1C6B8FD20767CC3005B2B1A /* MaxSubArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MaxSubArray.c; sourceTree = "<group>"; };
 		E1CC72C61F4AC58A002FB390 /* ValidParentheses.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ValidParentheses.c; sourceTree = "<group>"; };
 		E1CC72C71F4AC58A002FB390 /* ValidParentheses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidParentheses.h; sourceTree = "<group>"; };
 		E1CC72C91F4AD47D002FB390 /* MxCommon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MxCommon.c; sourceTree = "<group>"; };
@@ -178,6 +181,8 @@
 				E170E2FB206DCDF10062758F /* MyStrStr.h */,
 				E170E2FD206DD5000062758F /* SearchInsert.c */,
 				E170E2FE206DD5000062758F /* SearchInsert.h */,
+				E1C6B8FC20767CC3005B2B1A /* MaxSubArray.h */,
+				E1C6B8FD20767CC3005B2B1A /* MaxSubArray.c */,
 			);
 			path = Scheme;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 				E170E2FC206DCDF10062758F /* MyStrStr.c in Sources */,
 				E188BE061F3A7C25004D0450 /* AppDelegate.m in Sources */,
 				E188BE551F3C162D004D0450 /* AddTwoNumbers.c in Sources */,
+				E1C6B8FE20767CC3005B2B1A /* MaxSubArray.c in Sources */,
 				E170E2FF206DD5000062758F /* SearchInsert.c in Sources */,
 				E188BE3E1F3BF8D6004D0450 /* MxFunctionList.m in Sources */,
 				E188BE031F3A7C25004D0450 /* main.m in Sources */,

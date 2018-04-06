@@ -26,7 +26,7 @@
 #include "RemoveElement.h"
 #include "MyStrStr.h"
 #include "SearchInsert.h"
-
+#include "MaxSubArray.h"
 
 struct ListNode {
     

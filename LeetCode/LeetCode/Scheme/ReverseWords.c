@@ -41,7 +41,7 @@ char* reverseWords2(char *str)
         }
         if (i == strlen(str))
         {
-            return "";
+            return " ";
         }
         
         str[i] = str[strlen(str)-i-1]+str[i];

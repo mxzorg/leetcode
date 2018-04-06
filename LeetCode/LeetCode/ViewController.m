@@ -34,6 +34,8 @@
     self.functionList = list;
     
     [self loadFunctionListData];
+    
+    [self on151];
 }
 
 
@@ -42,7 +44,7 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void) loadFunctionListData
+- (void)loadFunctionListData
 {
     NSArray *temp = @[
                       @[@"2.Add Two Numbers", @"on2"],
@@ -67,8 +69,9 @@
                       
                       @[@"35.Search Insert Position", @"on35"],
                       
+                      @[@"53.Maximum Subarray", @"on53"],
                       
-                      @[@"LeetCode151", @"onReverseWords"],
+                      @[@"151.Reverse Words in a String", @"on151"],
                       ];
     
     self.functionList.dataArray = temp;
@@ -215,10 +218,22 @@
     printf("%d", index);
 }
 
-
--(void)onReverseWords
+-(void)on53
 {
-    char *str = "abc";
+    int src[9] = {-2,1,-3,4,-1,2,1,-5,4};   //6
+    //int src[10] = {0,-3,-2,-3,-2,2,-3,0,1,-1}; //2
+    //int src[3] = {-2,-1,-2};
+    //int src[3] = {-1,0,-2};
+    //int src[4] = {-1,0,-2,2};
+    //int src[2] = {1,2};
+    //int src[5] = {8,-19,5,-4,20}; //21
+    int sum = maxSubArray(src,9);
+    printf("%d", sum);
+}
+
+-(void)on151
+{
+    char *str = " ";
     char * tstr = (char*)malloc(strlen(str)+1);
     strcpy(tstr, str);
     
@@ -226,7 +241,6 @@
 }
 
 #pragma mark - 辅助函数
-
 -(struct ListNode*) createItemWithArray:(NSArray*)num
 {
     struct ListNode* numList = NULL;
