@@ -33,6 +33,8 @@
 		E1C6B8FE20767CC3005B2B1A /* MaxSubArray.c in Sources */ = {isa = PBXBuildFile; fileRef = E1C6B8FD20767CC3005B2B1A /* MaxSubArray.c */; };
 		E1CC72C81F4AC58A002FB390 /* ValidParentheses.c in Sources */ = {isa = PBXBuildFile; fileRef = E1CC72C61F4AC58A002FB390 /* ValidParentheses.c */; };
 		E1CC72CB1F4AD47D002FB390 /* MxCommon.c in Sources */ = {isa = PBXBuildFile; fileRef = E1CC72C91F4AD47D002FB390 /* MxCommon.c */; };
+		E1F17F792079AE46003C69D6 /* LengthOfLastWord.c in Sources */ = {isa = PBXBuildFile; fileRef = E1F17F782079AE46003C69D6 /* LengthOfLastWord.c */; };
+		E1F17F862079BBEE003C69D6 /* PlusOne.c in Sources */ = {isa = PBXBuildFile; fileRef = E1F17F852079BBEE003C69D6 /* PlusOne.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -86,6 +88,10 @@
 		E1CC72C71F4AC58A002FB390 /* ValidParentheses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidParentheses.h; sourceTree = "<group>"; };
 		E1CC72C91F4AD47D002FB390 /* MxCommon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MxCommon.c; sourceTree = "<group>"; };
 		E1CC72CA1F4AD47D002FB390 /* MxCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MxCommon.h; sourceTree = "<group>"; };
+		E1F17F772079AE46003C69D6 /* LengthOfLastWord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LengthOfLastWord.h; sourceTree = "<group>"; };
+		E1F17F782079AE46003C69D6 /* LengthOfLastWord.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LengthOfLastWord.c; sourceTree = "<group>"; };
+		E1F17F842079BBEE003C69D6 /* PlusOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlusOne.h; sourceTree = "<group>"; };
+		E1F17F852079BBEE003C69D6 /* PlusOne.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PlusOne.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,44 +153,128 @@
 			children = (
 				E1CC72C91F4AD47D002FB390 /* MxCommon.c */,
 				E1CC72CA1F4AD47D002FB390 /* MxCommon.h */,
-				E188BE531F3C162D004D0450 /* AddTwoNumbers.c */,
-				E188BE541F3C162D004D0450 /* AddTwoNumbers.h */,
 				E188BE4D1F3C161C004D0450 /* ReverseWords.c */,
 				E188BE4E1F3C161C004D0450 /* ReverseWords.h */,
-				E188BE4F1F3C161C004D0450 /* StringToInteger.c */,
-				E188BE501F3C161C004D0450 /* StringToInteger.h */,
+				E1F17F832079B9C0003C69D6 /* 91-100 */,
+				E1F17F822079B9B7003C69D6 /* 81-90 */,
+				E1F17F812079B9B0003C69D6 /* 71-80 */,
+				E1F17F802079B9A9003C69D6 /* 61-70 */,
+				E1F17F7F2079B9A3003C69D6 /* 51-60 */,
+				E1F17F7E2079B99A003C69D6 /* 41-50 */,
+				E1F17F7D2079B987003C69D6 /* 31-40 */,
+				E1F17F7C2079B97D003C69D6 /* 21-30 */,
+				E1F17F7B2079B975003C69D6 /* 11-20 */,
+				E1F17F7A2079B96E003C69D6 /* 1-10 */,
+			);
+			path = Scheme;
+			sourceTree = "<group>";
+		};
+		E1F17F7A2079B96E003C69D6 /* 1-10 */ = {
+			isa = PBXGroup;
+			children = (
+				E188BE531F3C162D004D0450 /* AddTwoNumbers.c */,
+				E188BE541F3C162D004D0450 /* AddTwoNumbers.h */,
 				E188BE561F3C4A24004D0450 /* WithoutRepeatingCharacters.c */,
 				E188BE571F3C4A24004D0450 /* WithoutRepeatingCharacters.h */,
 				E188BE591F3C5EBA004D0450 /* LongestPalindromicSubstring.c */,
 				E188BE5A1F3C5EBA004D0450 /* LongestPalindromicSubstring.h */,
 				E188BE5C1F3C7F9D004D0450 /* ReverseInteger.c */,
 				E188BE5D1F3C7F9D004D0450 /* ReverseInteger.h */,
+				E188BE4F1F3C161C004D0450 /* StringToInteger.c */,
+				E188BE501F3C161C004D0450 /* StringToInteger.h */,
 				E188BE5F1F3CAA9F004D0450 /* PalindromeNumber.c */,
 				E188BE601F3CAA9F004D0450 /* PalindromeNumber.h */,
+			);
+			path = "1-10";
+			sourceTree = "<group>";
+		};
+		E1F17F7B2079B975003C69D6 /* 11-20 */ = {
+			isa = PBXGroup;
+			children = (
 				E188BE621F3CB83D004D0450 /* MostWater.c */,
 				E188BE631F3CB83D004D0450 /* MostWater.h */,
 				E188BE6A1F3DA61D004D0450 /* IntegerToRoman.c */,
 				E188BE6B1F3DA61D004D0450 /* IntegerToRoman.h */,
 				E188BE6D1F3DAAC5004D0450 /* RomanToInteger.c */,
 				E188BE6E1F3DAAC5004D0450 /* RomanToInteger.h */,
-				E188BE941F4922F6004D0450 /* MergeTwoSortedLists.c */,
-				E188BE951F4922F6004D0450 /* MergeTwoSortedLists.h */,
-				E1CC72C61F4AC58A002FB390 /* ValidParentheses.c */,
-				E1CC72C71F4AC58A002FB390 /* ValidParentheses.h */,
 				E141994C1F542FD200136735 /* LongestCommonPrefix.c */,
 				E141994D1F542FD200136735 /* LongestCommonPrefix.h */,
+				E1CC72C61F4AC58A002FB390 /* ValidParentheses.c */,
+				E1CC72C71F4AC58A002FB390 /* ValidParentheses.h */,
+			);
+			path = "11-20";
+			sourceTree = "<group>";
+		};
+		E1F17F7C2079B97D003C69D6 /* 21-30 */ = {
+			isa = PBXGroup;
+			children = (
+				E188BE941F4922F6004D0450 /* MergeTwoSortedLists.c */,
+				E188BE951F4922F6004D0450 /* MergeTwoSortedLists.h */,
 				E13553E8206D4042009C7EFA /* RemoveDuplicates.c */,
 				E13553E9206D4042009C7EFA /* RemoveDuplicates.h */,
 				E194D8BB206DA25A00B43467 /* RemoveElement.c */,
 				E194D8BC206DA25A00B43467 /* RemoveElement.h */,
 				E170E2FA206DCDF10062758F /* MyStrStr.c */,
 				E170E2FB206DCDF10062758F /* MyStrStr.h */,
+			);
+			path = "21-30";
+			sourceTree = "<group>";
+		};
+		E1F17F7D2079B987003C69D6 /* 31-40 */ = {
+			isa = PBXGroup;
+			children = (
 				E170E2FD206DD5000062758F /* SearchInsert.c */,
 				E170E2FE206DD5000062758F /* SearchInsert.h */,
+			);
+			path = "31-40";
+			sourceTree = "<group>";
+		};
+		E1F17F7E2079B99A003C69D6 /* 41-50 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "41-50";
+			sourceTree = "<group>";
+		};
+		E1F17F7F2079B9A3003C69D6 /* 51-60 */ = {
+			isa = PBXGroup;
+			children = (
 				E1C6B8FC20767CC3005B2B1A /* MaxSubArray.h */,
 				E1C6B8FD20767CC3005B2B1A /* MaxSubArray.c */,
+				E1F17F772079AE46003C69D6 /* LengthOfLastWord.h */,
+				E1F17F782079AE46003C69D6 /* LengthOfLastWord.c */,
 			);
-			path = Scheme;
+			path = "51-60";
+			sourceTree = "<group>";
+		};
+		E1F17F802079B9A9003C69D6 /* 61-70 */ = {
+			isa = PBXGroup;
+			children = (
+				E1F17F842079BBEE003C69D6 /* PlusOne.h */,
+				E1F17F852079BBEE003C69D6 /* PlusOne.c */,
+			);
+			path = "61-70";
+			sourceTree = "<group>";
+		};
+		E1F17F812079B9B0003C69D6 /* 71-80 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "71-80";
+			sourceTree = "<group>";
+		};
+		E1F17F822079B9B7003C69D6 /* 81-90 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "81-90";
+			sourceTree = "<group>";
+		};
+		E1F17F832079B9C0003C69D6 /* 91-100 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "91-100";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -268,11 +358,13 @@
 				E188BE611F3CAA9F004D0450 /* PalindromeNumber.c in Sources */,
 				E1CC72C81F4AC58A002FB390 /* ValidParentheses.c in Sources */,
 				E188BE091F3A7C25004D0450 /* ViewController.m in Sources */,
+				E1F17F792079AE46003C69D6 /* LengthOfLastWord.c in Sources */,
 				E13553EA206D4042009C7EFA /* RemoveDuplicates.c in Sources */,
 				E170E2FC206DCDF10062758F /* MyStrStr.c in Sources */,
 				E188BE061F3A7C25004D0450 /* AppDelegate.m in Sources */,
 				E188BE551F3C162D004D0450 /* AddTwoNumbers.c in Sources */,
 				E1C6B8FE20767CC3005B2B1A /* MaxSubArray.c in Sources */,
+				E1F17F862079BBEE003C69D6 /* PlusOne.c in Sources */,
 				E170E2FF206DD5000062758F /* SearchInsert.c in Sources */,
 				E188BE3E1F3BF8D6004D0450 /* MxFunctionList.m in Sources */,
 				E188BE031F3A7C25004D0450 /* main.m in Sources */,

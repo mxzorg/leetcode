@@ -27,6 +27,8 @@
 #include "MyStrStr.h"
 #include "SearchInsert.h"
 #include "MaxSubArray.h"
+#include "LengthOfLastWord.h"
+#include "PlusOne.h"
 
 struct ListNode {
     

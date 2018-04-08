@@ -35,7 +35,7 @@
     
     [self loadFunctionListData];
     
-    [self on53];
+    [self on66];
 }
 
 
@@ -70,6 +70,10 @@
                       @[@"35.Search Insert Position", @"on35"],
                       
                       @[@"53.Maximum Subarray", @"on53"],
+                      
+                      @[@"58.Length of Last Word", @"on58"],
+                      
+                      @[@"66.Plus One", @"on66"],
                       
                       @[@"151.Reverse Words in a String", @"on151"], //未通过
                       ];
@@ -119,7 +123,7 @@
 {
     char *str = "123123";
     
-    printf("%d", myAtoi(str));
+    NSLog(@"%d", myAtoi(str));
 }
 
 -(void)on9
@@ -152,7 +156,6 @@
     int output = romanToInt(input);
     
     NSLog(@"%d", output);
-    
 }
 
 -(void)on14
@@ -189,7 +192,7 @@
     int array[10] = {2,3,3,3,44,44,50,66,66,66};
     int len = removeDuplicates(array, 10);
     for (int i = 0; i < len; i++) {
-        printf("%d", array[i]);
+        NSLog(@"%d", array[i]);
     }
 }
 
@@ -198,7 +201,7 @@
     int array[10] = {2,3,3,3,44,44,50,66,66,66};
     int len = removeElement(array, 10, 3);
     for (int i = 0; i < len; i++) {
-        printf("%d", array[i]);
+        NSLog(@"%d", array[i]);
     }
 }
 
@@ -207,7 +210,7 @@
     char *str1 = "hello world";
     char *str2 = "llo";
     int index = MyStrStr(str1, str2);
-    printf("%d", index);
+    NSLog(@"%d", index);
 }
 
 -(void)on35
@@ -215,7 +218,7 @@
     int src[] = {1,2,3,4,6,7};
     int target = 0;
     int index = searchInsert(src, 6, target);
-    printf("%d", index);
+    NSLog(@"%d", index);
 }
 
 -(void)on53
@@ -227,8 +230,25 @@
     //int src[4] = {-1,0,-2,2};
     //int src[2] = {1,2};
     //int src[5] = {8,-19,5,-4,20}; //21
+    
     int sum = maxSubArray(src,9);
-    printf("%d", sum);
+    NSLog(@"%d\n", sum);
+}
+
+-(void)on58
+{
+    char *str = "Hello world ";
+    NSLog(@"%d", lengthOfLastWord(str));
+}
+
+-(void)on66
+{
+    int data[] = {9};
+    int len = 0;
+    int *res = plusOne(data, 1, &len);
+    for (int i = 0; i < len; i++) {
+        NSLog(@"%d", res[i]);
+    }
 }
 
 -(void)on151
@@ -240,7 +260,7 @@
 }
 
 #pragma mark - 辅助函数
--(struct ListNode*) createItemWithArray:(NSArray*)num
+-(struct ListNode*)createItemWithArray:(NSArray*)num
 {
     struct ListNode* numList = NULL;
     struct ListNode* temp = NULL;
@@ -264,7 +284,7 @@
     return numList;
 }
 
--(void) outputList:(struct ListNode*)list
+-(void)outputList:(struct ListNode*)list
 {
     while (list) {
         
