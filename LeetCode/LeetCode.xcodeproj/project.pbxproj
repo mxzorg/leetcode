@@ -35,6 +35,7 @@
 		E1CC72CB1F4AD47D002FB390 /* MxCommon.c in Sources */ = {isa = PBXBuildFile; fileRef = E1CC72C91F4AD47D002FB390 /* MxCommon.c */; };
 		E1F17F792079AE46003C69D6 /* LengthOfLastWord.c in Sources */ = {isa = PBXBuildFile; fileRef = E1F17F782079AE46003C69D6 /* LengthOfLastWord.c */; };
 		E1F17F862079BBEE003C69D6 /* PlusOne.c in Sources */ = {isa = PBXBuildFile; fileRef = E1F17F852079BBEE003C69D6 /* PlusOne.c */; };
+		E1F17F92207B0156003C69D6 /* AddBinary.c in Sources */ = {isa = PBXBuildFile; fileRef = E1F17F91207B0156003C69D6 /* AddBinary.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -92,6 +93,8 @@
 		E1F17F782079AE46003C69D6 /* LengthOfLastWord.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LengthOfLastWord.c; sourceTree = "<group>"; };
 		E1F17F842079BBEE003C69D6 /* PlusOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlusOne.h; sourceTree = "<group>"; };
 		E1F17F852079BBEE003C69D6 /* PlusOne.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PlusOne.c; sourceTree = "<group>"; };
+		E1F17F90207B0156003C69D6 /* AddBinary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AddBinary.h; sourceTree = "<group>"; };
+		E1F17F91207B0156003C69D6 /* AddBinary.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = AddBinary.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +255,8 @@
 			children = (
 				E1F17F842079BBEE003C69D6 /* PlusOne.h */,
 				E1F17F852079BBEE003C69D6 /* PlusOne.c */,
+				E1F17F90207B0156003C69D6 /* AddBinary.h */,
+				E1F17F91207B0156003C69D6 /* AddBinary.c */,
 			);
 			path = "61-70";
 			sourceTree = "<group>";
@@ -303,7 +308,7 @@
 		E188BDF61F3A7C25004D0450 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0920;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Mxz;
 				TargetAttributes = {
 					E188BDFD1F3A7C25004D0450 = {
@@ -364,6 +369,7 @@
 				E188BE061F3A7C25004D0450 /* AppDelegate.m in Sources */,
 				E188BE551F3C162D004D0450 /* AddTwoNumbers.c in Sources */,
 				E1C6B8FE20767CC3005B2B1A /* MaxSubArray.c in Sources */,
+				E1F17F92207B0156003C69D6 /* AddBinary.c in Sources */,
 				E1F17F862079BBEE003C69D6 /* PlusOne.c in Sources */,
 				E170E2FF206DD5000062758F /* SearchInsert.c in Sources */,
 				E188BE3E1F3BF8D6004D0450 /* MxFunctionList.m in Sources */,
@@ -412,6 +418,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -419,6 +426,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -466,6 +474,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -473,6 +482,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;

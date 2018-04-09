@@ -7,12 +7,8 @@
 //
 
 #import "ViewController.h"
-
+#import "MxCommon.h"
 #import "MxFunctionList.h"
-
-
-#include "MxCommon.h"
-
 
 
 @interface ViewController ()
@@ -35,7 +31,7 @@
     
     [self loadFunctionListData];
     
-    [self on66];
+    [self on67];
 }
 
 
@@ -74,6 +70,7 @@
                       @[@"58.Length of Last Word", @"on58"],
                       
                       @[@"66.Plus One", @"on66"],
+                      @[@"67.Add Binary", @"on67"],
                       
                       @[@"151.Reverse Words in a String", @"on151"], //未通过
                       ];
@@ -249,6 +246,21 @@
     for (int i = 0; i < len; i++) {
         NSLog(@"%d", res[i]);
     }
+}
+
+-(void)on67
+{
+//    char *a = "0";
+//    char *b = "0";
+    
+//    char *a = "110";
+//    char *b = "00011";
+
+    char *a = "11101110101101111001001101111110010101010110101001001111001100001000001010000110010100";
+    char *b = "110011101101100101010011101101100000110010100110011000110000";
+    
+    char *c = addBinary(a, b);
+    printf("%s",c);
 }
 
 -(void)on151

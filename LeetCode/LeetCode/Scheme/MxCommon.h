@@ -29,6 +29,8 @@
 #include "MaxSubArray.h"
 #include "LengthOfLastWord.h"
 #include "PlusOne.h"
+#include "AddBinary.h"
+
 
 struct ListNode {
     
@@ -50,5 +52,6 @@ struct StackNode* stackPush(struct StackNode* stack, char cValue);
 struct StackNode* stackPop(struct StackNode* stack);
 
 void stackClean(struct StackNode* stack);
+
 
 #endif /* MxCommon_h */

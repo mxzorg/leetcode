@@ -8,6 +8,9 @@
 
 #include "MxCommon.h"
 
+#include <stdlib.h>
+#include <stdio.h>
+#include <string.h>
 
 struct StackNode* stackPush(struct StackNode* stack, char cValue)
 {
