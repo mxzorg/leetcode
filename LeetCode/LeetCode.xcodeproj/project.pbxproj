@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E11B3FBD207C51420084D2F4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E11B3FBC207C51420084D2F4 /* README.md */; };
 		E13553EA206D4042009C7EFA /* RemoveDuplicates.c in Sources */ = {isa = PBXBuildFile; fileRef = E13553E8206D4042009C7EFA /* RemoveDuplicates.c */; };
 		E141994E1F542FD200136735 /* LongestCommonPrefix.c in Sources */ = {isa = PBXBuildFile; fileRef = E141994C1F542FD200136735 /* LongestCommonPrefix.c */; };
 		E170E2FC206DCDF10062758F /* MyStrStr.c in Sources */ = {isa = PBXBuildFile; fileRef = E170E2FA206DCDF10062758F /* MyStrStr.c */; };
@@ -39,6 +40,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E11B3FBC207C51420084D2F4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		E13553E8206D4042009C7EFA /* RemoveDuplicates.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = RemoveDuplicates.c; sourceTree = "<group>"; };
 		E13553E9206D4042009C7EFA /* RemoveDuplicates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoveDuplicates.h; sourceTree = "<group>"; };
 		E141994C1F542FD200136735 /* LongestCommonPrefix.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = LongestCommonPrefix.c; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 		E188BE001F3A7C25004D0450 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
+				E11B3FBC207C51420084D2F4 /* README.md */,
 				E188BE4C1F3C161C004D0450 /* Scheme */,
 				E188BE3C1F3BF8D6004D0450 /* MxFunctionList.h */,
 				E188BE3D1F3BF8D6004D0450 /* MxFunctionList.m */,
@@ -342,6 +345,7 @@
 			files = (
 				E188BE111F3A7C25004D0450 /* LaunchScreen.storyboard in Resources */,
 				E188BE0E1F3A7C25004D0450 /* Assets.xcassets in Resources */,
+				E11B3FBD207C51420084D2F4 /* README.md in Resources */,
 				E188BE0C1F3A7C25004D0450 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
