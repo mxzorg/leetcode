@@ -31,7 +31,7 @@
     
     [self loadFunctionListData];
     
-    [self on67];
+    [self on88];
 }
 
 
@@ -71,6 +71,9 @@
                       
                       @[@"66.Plus One", @"on66"],
                       @[@"67.Add Binary", @"on67"],
+                      
+                      @[@"83. Remove Duplicates from Sorted List", @"on83"],
+                      @[@"88. Merge Sorted Array", @"on88"],
                       
                       @[@"151.Reverse Words in a String", @"on151"], //未通过
                       ];
@@ -245,6 +248,25 @@
     int *res = plusOne(data, 1, &len);
     for (int i = 0; i < len; i++) {
         NSLog(@"%d", res[i]);
+    }
+}
+
+-(void)on83
+{
+    NSArray *num = @[@(1), @(2), @(2), @(2), @(3), @(4), @(5)];
+    struct ListNode * numList = [self createItemWithArray:num];
+    struct ListNode * resList = deleteDuplicates(numList);
+    [self outputList:resList];
+}
+
+-(void)on88
+{
+    int num1[6] = {1,2,3,0,0,0};
+    int num2[3] = {2,5,6};
+    
+    mergeSortedArray(num1, 3, num2, 3);
+    for (int i = 0; i < 6; i++) {
+        NSLog(@"%d", num1[i]);
     }
 }
 

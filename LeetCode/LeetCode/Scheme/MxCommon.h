@@ -30,6 +30,8 @@
 #include "LengthOfLastWord.h"
 #include "PlusOne.h"
 #include "AddBinary.h"
+#include "DeleteDuplicates.h"
+#include "MergeSortedArray.h"
 
 
 struct ListNode {

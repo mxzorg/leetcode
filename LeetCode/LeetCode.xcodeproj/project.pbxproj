@@ -34,6 +34,8 @@
 		E1C6B8FE20767CC3005B2B1A /* MaxSubArray.c in Sources */ = {isa = PBXBuildFile; fileRef = E1C6B8FD20767CC3005B2B1A /* MaxSubArray.c */; };
 		E1CC72C81F4AC58A002FB390 /* ValidParentheses.c in Sources */ = {isa = PBXBuildFile; fileRef = E1CC72C61F4AC58A002FB390 /* ValidParentheses.c */; };
 		E1CC72CB1F4AD47D002FB390 /* MxCommon.c in Sources */ = {isa = PBXBuildFile; fileRef = E1CC72C91F4AD47D002FB390 /* MxCommon.c */; };
+		E1E62EBE211C99240027B7CD /* DeleteDuplicates.c in Sources */ = {isa = PBXBuildFile; fileRef = E1E62EBC211C99240027B7CD /* DeleteDuplicates.c */; };
+		E1E62EC1211C9C840027B7CD /* MergeSortedArray.c in Sources */ = {isa = PBXBuildFile; fileRef = E1E62EBF211C9C840027B7CD /* MergeSortedArray.c */; };
 		E1F17F792079AE46003C69D6 /* LengthOfLastWord.c in Sources */ = {isa = PBXBuildFile; fileRef = E1F17F782079AE46003C69D6 /* LengthOfLastWord.c */; };
 		E1F17F862079BBEE003C69D6 /* PlusOne.c in Sources */ = {isa = PBXBuildFile; fileRef = E1F17F852079BBEE003C69D6 /* PlusOne.c */; };
 		E1F17F92207B0156003C69D6 /* AddBinary.c in Sources */ = {isa = PBXBuildFile; fileRef = E1F17F91207B0156003C69D6 /* AddBinary.c */; };
@@ -91,6 +93,10 @@
 		E1CC72C71F4AC58A002FB390 /* ValidParentheses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidParentheses.h; sourceTree = "<group>"; };
 		E1CC72C91F4AD47D002FB390 /* MxCommon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MxCommon.c; sourceTree = "<group>"; };
 		E1CC72CA1F4AD47D002FB390 /* MxCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MxCommon.h; sourceTree = "<group>"; };
+		E1E62EBC211C99240027B7CD /* DeleteDuplicates.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DeleteDuplicates.c; sourceTree = "<group>"; };
+		E1E62EBD211C99240027B7CD /* DeleteDuplicates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeleteDuplicates.h; sourceTree = "<group>"; };
+		E1E62EBF211C9C840027B7CD /* MergeSortedArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MergeSortedArray.c; sourceTree = "<group>"; };
+		E1E62EC0211C9C840027B7CD /* MergeSortedArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MergeSortedArray.h; sourceTree = "<group>"; };
 		E1F17F772079AE46003C69D6 /* LengthOfLastWord.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LengthOfLastWord.h; sourceTree = "<group>"; };
 		E1F17F782079AE46003C69D6 /* LengthOfLastWord.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = LengthOfLastWord.c; sourceTree = "<group>"; };
 		E1F17F842079BBEE003C69D6 /* PlusOne.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PlusOne.h; sourceTree = "<group>"; };
@@ -162,7 +168,7 @@
 				E188BE4D1F3C161C004D0450 /* ReverseWords.c */,
 				E188BE4E1F3C161C004D0450 /* ReverseWords.h */,
 				E1F17F832079B9C0003C69D6 /* 91-100 */,
-				E1F17F822079B9B7003C69D6 /* 81-90 */,
+				E1E62EBB211C99000027B7CD /* 81-90 */,
 				E1F17F812079B9B0003C69D6 /* 71-80 */,
 				E1F17F802079B9A9003C69D6 /* 61-70 */,
 				E1F17F7F2079B9A3003C69D6 /* 51-60 */,
@@ -173,6 +179,17 @@
 				E1F17F7A2079B96E003C69D6 /* 1-10 */,
 			);
 			path = Scheme;
+			sourceTree = "<group>";
+		};
+		E1E62EBB211C99000027B7CD /* 81-90 */ = {
+			isa = PBXGroup;
+			children = (
+				E1E62EBC211C99240027B7CD /* DeleteDuplicates.c */,
+				E1E62EBD211C99240027B7CD /* DeleteDuplicates.h */,
+				E1E62EBF211C9C840027B7CD /* MergeSortedArray.c */,
+				E1E62EC0211C9C840027B7CD /* MergeSortedArray.h */,
+			);
+			path = "81-90";
 			sourceTree = "<group>";
 		};
 		E1F17F7A2079B96E003C69D6 /* 1-10 */ = {
@@ -271,13 +288,6 @@
 			path = "71-80";
 			sourceTree = "<group>";
 		};
-		E1F17F822079B9B7003C69D6 /* 81-90 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "81-90";
-			sourceTree = "<group>";
-		};
 		E1F17F832079B9C0003C69D6 /* 91-100 */ = {
 			isa = PBXGroup;
 			children = (
@@ -368,6 +378,7 @@
 				E1CC72C81F4AC58A002FB390 /* ValidParentheses.c in Sources */,
 				E188BE091F3A7C25004D0450 /* ViewController.m in Sources */,
 				E1F17F792079AE46003C69D6 /* LengthOfLastWord.c in Sources */,
+				E1E62EC1211C9C840027B7CD /* MergeSortedArray.c in Sources */,
 				E13553EA206D4042009C7EFA /* RemoveDuplicates.c in Sources */,
 				E170E2FC206DCDF10062758F /* MyStrStr.c in Sources */,
 				E188BE061F3A7C25004D0450 /* AppDelegate.m in Sources */,
@@ -381,6 +392,7 @@
 				E188BE6F1F3DAAC5004D0450 /* RomanToInteger.c in Sources */,
 				E188BE511F3C161C004D0450 /* ReverseWords.c in Sources */,
 				E188BE5B1F3C5EBA004D0450 /* LongestPalindromicSubstring.c in Sources */,
+				E1E62EBE211C99240027B7CD /* DeleteDuplicates.c in Sources */,
 				E188BE641F3CB83D004D0450 /* MostWater.c in Sources */,
 				E188BE5E1F3C7F9D004D0450 /* ReverseInteger.c in Sources */,
 			);
