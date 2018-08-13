@@ -17,16 +17,18 @@ void change(int *a, int *b) {
 
 void changeArray(int *array, int left, int right){
     
-    for (int i = left; i < right; i++) {
+    for (int i = left; i < right-1; i++) {
         if (array[i] > array[i+1]) {
             change(&array[i], &array[i+1]);
         }
     }
-    
 }
 
 void mergeSortedArray(int* nums1, int m, int* nums2, int n) {
     
+    if (n == 0) {
+        return;
+    }
     int i = 0, j = 0;
     while (i < m+n) {
         
