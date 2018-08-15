@@ -9,7 +9,7 @@
 #ifndef MergeTwoSortedLists_h
 #define MergeTwoSortedLists_h
 
-#include "MxCommon.h"
+#include "MxHeaders.h"
 
 struct ListNode* mergeTwoLists(struct ListNode* l1, struct ListNode* l2);
 

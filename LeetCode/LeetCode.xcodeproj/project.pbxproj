@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		82BCA8762121127A00F0E794 /* IsSameTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 82BCA8752121127A00F0E794 /* IsSameTree.c */; };
+		82BCA90B2123B67D00F0E794 /* removeNthFromEnd.c in Sources */ = {isa = PBXBuildFile; fileRef = 82BCA90A2123B67D00F0E794 /* removeNthFromEnd.c */; };
 		E11B3FBD207C51420084D2F4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E11B3FBC207C51420084D2F4 /* README.md */; };
 		E13553EA206D4042009C7EFA /* RemoveDuplicates.c in Sources */ = {isa = PBXBuildFile; fileRef = E13553E8206D4042009C7EFA /* RemoveDuplicates.c */; };
 		E141994E1F542FD200136735 /* LongestCommonPrefix.c in Sources */ = {isa = PBXBuildFile; fileRef = E141994C1F542FD200136735 /* LongestCommonPrefix.c */; };
@@ -19,7 +21,6 @@
 		E188BE0E1F3A7C25004D0450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E188BE0D1F3A7C25004D0450 /* Assets.xcassets */; };
 		E188BE111F3A7C25004D0450 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E188BE0F1F3A7C25004D0450 /* LaunchScreen.storyboard */; };
 		E188BE3E1F3BF8D6004D0450 /* MxFunctionList.m in Sources */ = {isa = PBXBuildFile; fileRef = E188BE3D1F3BF8D6004D0450 /* MxFunctionList.m */; };
-		E188BE511F3C161C004D0450 /* ReverseWords.c in Sources */ = {isa = PBXBuildFile; fileRef = E188BE4D1F3C161C004D0450 /* ReverseWords.c */; };
 		E188BE521F3C161C004D0450 /* StringToInteger.c in Sources */ = {isa = PBXBuildFile; fileRef = E188BE4F1F3C161C004D0450 /* StringToInteger.c */; };
 		E188BE551F3C162D004D0450 /* AddTwoNumbers.c in Sources */ = {isa = PBXBuildFile; fileRef = E188BE531F3C162D004D0450 /* AddTwoNumbers.c */; };
 		E188BE581F3C4A24004D0450 /* WithoutRepeatingCharacters.c in Sources */ = {isa = PBXBuildFile; fileRef = E188BE561F3C4A24004D0450 /* WithoutRepeatingCharacters.c */; };
@@ -42,6 +43,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		82BCA8742121127A00F0E794 /* IsSameTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IsSameTree.h; sourceTree = "<group>"; };
+		82BCA8752121127A00F0E794 /* IsSameTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = IsSameTree.c; sourceTree = "<group>"; };
+		82BCA9092123B67D00F0E794 /* removeNthFromEnd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = removeNthFromEnd.h; sourceTree = "<group>"; };
+		82BCA90A2123B67D00F0E794 /* removeNthFromEnd.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = removeNthFromEnd.c; sourceTree = "<group>"; };
+		82BCA90C2123B91A00F0E794 /* MxHeaders.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MxHeaders.h; sourceTree = "<group>"; };
 		E11B3FBC207C51420084D2F4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
 		E13553E8206D4042009C7EFA /* RemoveDuplicates.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = RemoveDuplicates.c; sourceTree = "<group>"; };
 		E13553E9206D4042009C7EFA /* RemoveDuplicates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoveDuplicates.h; sourceTree = "<group>"; };
@@ -63,8 +69,6 @@
 		E188BE121F3A7C25004D0450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E188BE3C1F3BF8D6004D0450 /* MxFunctionList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MxFunctionList.h; sourceTree = "<group>"; };
 		E188BE3D1F3BF8D6004D0450 /* MxFunctionList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MxFunctionList.m; sourceTree = "<group>"; };
-		E188BE4D1F3C161C004D0450 /* ReverseWords.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ReverseWords.c; sourceTree = "<group>"; };
-		E188BE4E1F3C161C004D0450 /* ReverseWords.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReverseWords.h; sourceTree = "<group>"; };
 		E188BE4F1F3C161C004D0450 /* StringToInteger.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = StringToInteger.c; sourceTree = "<group>"; };
 		E188BE501F3C161C004D0450 /* StringToInteger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringToInteger.h; sourceTree = "<group>"; };
 		E188BE531F3C162D004D0450 /* AddTwoNumbers.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = AddTwoNumbers.c; sourceTree = "<group>"; };
@@ -116,6 +120,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		82BCA8732121124E00F0E794 /* 91-100 */ = {
+			isa = PBXGroup;
+			children = (
+				82BCA8742121127A00F0E794 /* IsSameTree.h */,
+				82BCA8752121127A00F0E794 /* IsSameTree.c */,
+			);
+			path = "91-100";
+			sourceTree = "<group>";
+		};
 		E188BDF51F3A7C25004D0450 = {
 			isa = PBXGroup;
 			children = (
@@ -163,11 +176,10 @@
 		E188BE4C1F3C161C004D0450 /* Scheme */ = {
 			isa = PBXGroup;
 			children = (
+				82BCA90C2123B91A00F0E794 /* MxHeaders.h */,
 				E1CC72C91F4AD47D002FB390 /* MxCommon.c */,
 				E1CC72CA1F4AD47D002FB390 /* MxCommon.h */,
-				E188BE4D1F3C161C004D0450 /* ReverseWords.c */,
-				E188BE4E1F3C161C004D0450 /* ReverseWords.h */,
-				E1F17F832079B9C0003C69D6 /* 91-100 */,
+				82BCA8732121124E00F0E794 /* 91-100 */,
 				E1E62EBB211C99000027B7CD /* 81-90 */,
 				E1F17F812079B9B0003C69D6 /* 71-80 */,
 				E1F17F802079B9A9003C69D6 /* 61-70 */,
@@ -224,6 +236,8 @@
 				E141994D1F542FD200136735 /* LongestCommonPrefix.h */,
 				E1CC72C61F4AC58A002FB390 /* ValidParentheses.c */,
 				E1CC72C71F4AC58A002FB390 /* ValidParentheses.h */,
+				82BCA9092123B67D00F0E794 /* removeNthFromEnd.h */,
+				82BCA90A2123B67D00F0E794 /* removeNthFromEnd.c */,
 			);
 			path = "11-20";
 			sourceTree = "<group>";
@@ -286,13 +300,6 @@
 			children = (
 			);
 			path = "71-80";
-			sourceTree = "<group>";
-		};
-		E1F17F832079B9C0003C69D6 /* 91-100 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "91-100";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,6 +383,8 @@
 				E188BE521F3C161C004D0450 /* StringToInteger.c in Sources */,
 				E188BE611F3CAA9F004D0450 /* PalindromeNumber.c in Sources */,
 				E1CC72C81F4AC58A002FB390 /* ValidParentheses.c in Sources */,
+				82BCA90B2123B67D00F0E794 /* removeNthFromEnd.c in Sources */,
+				82BCA8762121127A00F0E794 /* IsSameTree.c in Sources */,
 				E188BE091F3A7C25004D0450 /* ViewController.m in Sources */,
 				E1F17F792079AE46003C69D6 /* LengthOfLastWord.c in Sources */,
 				E1E62EC1211C9C840027B7CD /* MergeSortedArray.c in Sources */,
@@ -390,7 +399,6 @@
 				E188BE3E1F3BF8D6004D0450 /* MxFunctionList.m in Sources */,
 				E188BE031F3A7C25004D0450 /* main.m in Sources */,
 				E188BE6F1F3DAAC5004D0450 /* RomanToInteger.c in Sources */,
-				E188BE511F3C161C004D0450 /* ReverseWords.c in Sources */,
 				E188BE5B1F3C5EBA004D0450 /* LongestPalindromicSubstring.c in Sources */,
 				E1E62EBE211C99240027B7CD /* DeleteDuplicates.c in Sources */,
 				E188BE641F3CB83D004D0450 /* MostWater.c in Sources */,

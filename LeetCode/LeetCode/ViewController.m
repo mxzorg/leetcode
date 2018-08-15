@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "MxCommon.h"
+
+#import "MxHeaders.h"
 #import "MxFunctionList.h"
 
 
@@ -31,7 +32,7 @@
     
     [self loadFunctionListData];
     
-    [self on88];
+    [self on19];
 }
 
 
@@ -56,6 +57,7 @@
                       @[@"13.Roman to Integer", @"on13"],
                       @[@"14.Longest Common Prefix", @"on14"],
                       
+                      @[@"19. Remove Nth Node From End of List", @"on19"],
                       @[@"20.Valid Parentheses", @"on20"],
                       @[@"21.Merge Two Sorted Lists", @"on21"],
                       
@@ -74,6 +76,8 @@
                       
                       @[@"83. Remove Duplicates from Sorted List", @"on83"],
                       @[@"88. Merge Sorted Array", @"on88"],
+                      
+                      @[@"100. Same Tree", @"on100"],
                       
                       @[@"151.Reverse Words in a String", @"on151"], //未通过
                       ];
@@ -166,6 +170,16 @@
     NSLog(@"%s", output);
 }
 
+-(void)on19
+{
+    NSArray *num = @[@(1), @(2)];
+    
+    struct ListNode * list = [self createItemWithArray:num];
+    
+    struct ListNode * temp = removeNthFromEnd(list, 2);
+    [self outputList:temp];
+}
+
 -(void)on20
 {
     char *input = "[";
@@ -251,6 +265,21 @@
     }
 }
 
+-(void)on67
+{
+//    char *a = "0";
+//    char *b = "0";
+    
+//    char *a = "110";
+//    char *b = "00011";
+
+    char *a = "11101110101101111001001101111110010101010110101001001111001100001000001010000110010100";
+    char *b = "110011101101100101010011101101100000110010100110011000110000";
+    
+    char *c = addBinary(a, b);
+    printf("%s",c);
+}
+
 -(void)on83
 {
     NSArray *num = @[@(1), @(2), @(2), @(2), @(3), @(4), @(5)];
@@ -270,27 +299,14 @@
     }
 }
 
--(void)on67
+-(void)on100
 {
-//    char *a = "0";
-//    char *b = "0";
     
-//    char *a = "110";
-//    char *b = "00011";
-
-    char *a = "11101110101101111001001101111110010101010110101001001111001100001000001010000110010100";
-    char *b = "110011101101100101010011101101100000110010100110011000110000";
-    
-    char *c = addBinary(a, b);
-    printf("%s",c);
 }
 
 -(void)on151
 {
-    char *str = "hello world";
-    char * tstr = (char*)malloc(strlen(str)+1);
-    strcpy(tstr, str);
-    NSLog(@"%s", reverseWords(str));
+
 }
 
 #pragma mark - 辅助函数

@@ -9,30 +9,12 @@
 #ifndef MxCommon_h
 #define MxCommon_h
 
-#include "AddTwoNumbers.h"
-#include "ReverseWords.h"
-#include "StringToInteger.h"
-#include "WithoutRepeatingCharacters.h"
-#include "LongestPalindromicSubstring.h"
-#include "ReverseInteger.h"
-#include "PalindromeNumber.h"
-#include "MostWater.h"
-#include "IntegerToRoman.h"
-#include "RomanToInteger.h"
-#include "MergeTwoSortedLists.h"
-#include "ValidParentheses.h"
-#include "LongestCommonPrefix.h"
-#include "RemoveDuplicates.h"
-#include "RemoveElement.h"
-#include "MyStrStr.h"
-#include "SearchInsert.h"
-#include "MaxSubArray.h"
-#include "LengthOfLastWord.h"
-#include "PlusOne.h"
-#include "AddBinary.h"
-#include "DeleteDuplicates.h"
-#include "MergeSortedArray.h"
-
+struct TreeNode {
+    
+    int val;
+    struct TreeNode *left;
+    struct TreeNode *right;
+};
 
 struct ListNode {
     
