@@ -32,7 +32,7 @@
     
     [self loadFunctionListData];
     
-    [self on19];
+    [self on4];
 }
 
 
@@ -46,7 +46,7 @@
     NSArray *temp = @[
                       @[@"2.Add Two Numbers", @"on2"],
                       @[@"3.Longest Substring Without Repeating", @"on3"],
-                      
+                      @[@"4. Median of Two Sorted Arrays", @"on4"],
                       @[@"5.Longest Palindromic Substring", @"on5"],
                       @[@"7.Reverse Integer", @"on7"],
                       @[@"8.String to Integer (atoi) ", @"on8"],
@@ -104,6 +104,15 @@
     int output = lengthOfLongestSubstring(input);
     
     NSLog(@"%s=%d",input, output);
+}
+
+-(void)on4
+{
+    int num1[] = {3};
+    int num2[] = {-2, -1};
+    
+    double output = findMedianSortedArrays(num1, 1, num2, 2);
+    printf("%f", output);
 }
 
 -(void)on5

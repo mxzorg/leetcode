@@ -35,5 +35,6 @@
 #include "MergeSortedArray.h"
 #include "IsSameTree.h"
 #include "removeNthFromEnd.h"
+#include "FindMedianSortedArrays.h"
 
 #endif /* MxHeaders_h */

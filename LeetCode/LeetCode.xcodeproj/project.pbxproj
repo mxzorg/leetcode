@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4859A21621246CF50028300D /* FindMedianSortedArrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 4859A21521246CF50028300D /* FindMedianSortedArrays.c */; };
 		82BCA8762121127A00F0E794 /* IsSameTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 82BCA8752121127A00F0E794 /* IsSameTree.c */; };
 		82BCA90B2123B67D00F0E794 /* removeNthFromEnd.c in Sources */ = {isa = PBXBuildFile; fileRef = 82BCA90A2123B67D00F0E794 /* removeNthFromEnd.c */; };
 		E11B3FBD207C51420084D2F4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E11B3FBC207C51420084D2F4 /* README.md */; };
@@ -43,6 +44,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4859A21421246CF50028300D /* FindMedianSortedArrays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindMedianSortedArrays.h; sourceTree = "<group>"; };
+		4859A21521246CF50028300D /* FindMedianSortedArrays.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FindMedianSortedArrays.c; sourceTree = "<group>"; };
 		82BCA8742121127A00F0E794 /* IsSameTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IsSameTree.h; sourceTree = "<group>"; };
 		82BCA8752121127A00F0E794 /* IsSameTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = IsSameTree.c; sourceTree = "<group>"; };
 		82BCA9092123B67D00F0E794 /* removeNthFromEnd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = removeNthFromEnd.h; sourceTree = "<group>"; };
@@ -219,6 +222,8 @@
 				E188BE501F3C161C004D0450 /* StringToInteger.h */,
 				E188BE5F1F3CAA9F004D0450 /* PalindromeNumber.c */,
 				E188BE601F3CAA9F004D0450 /* PalindromeNumber.h */,
+				4859A21421246CF50028300D /* FindMedianSortedArrays.h */,
+				4859A21521246CF50028300D /* FindMedianSortedArrays.c */,
 			);
 			path = "1-10";
 			sourceTree = "<group>";
@@ -397,6 +402,7 @@
 				E1F17F862079BBEE003C69D6 /* PlusOne.c in Sources */,
 				E170E2FF206DD5000062758F /* SearchInsert.c in Sources */,
 				E188BE3E1F3BF8D6004D0450 /* MxFunctionList.m in Sources */,
+				4859A21621246CF50028300D /* FindMedianSortedArrays.c in Sources */,
 				E188BE031F3A7C25004D0450 /* main.m in Sources */,
 				E188BE6F1F3DAAC5004D0450 /* RomanToInteger.c in Sources */,
 				E188BE5B1F3C5EBA004D0450 /* LongestPalindromicSubstring.c in Sources */,
