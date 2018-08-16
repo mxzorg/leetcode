@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		4859A21621246CF50028300D /* FindMedianSortedArrays.c in Sources */ = {isa = PBXBuildFile; fileRef = 4859A21521246CF50028300D /* FindMedianSortedArrays.c */; };
+		4859A2192125C0030028300D /* IsMatch.c in Sources */ = {isa = PBXBuildFile; fileRef = 4859A2182125C0030028300D /* IsMatch.c */; };
+		4859A21C2125CAB70028300D /* base64.c in Sources */ = {isa = PBXBuildFile; fileRef = 4859A21B2125CAB70028300D /* base64.c */; };
 		82BCA8762121127A00F0E794 /* IsSameTree.c in Sources */ = {isa = PBXBuildFile; fileRef = 82BCA8752121127A00F0E794 /* IsSameTree.c */; };
 		82BCA90B2123B67D00F0E794 /* removeNthFromEnd.c in Sources */ = {isa = PBXBuildFile; fileRef = 82BCA90A2123B67D00F0E794 /* removeNthFromEnd.c */; };
 		E11B3FBD207C51420084D2F4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E11B3FBC207C51420084D2F4 /* README.md */; };
@@ -46,6 +48,10 @@
 /* Begin PBXFileReference section */
 		4859A21421246CF50028300D /* FindMedianSortedArrays.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindMedianSortedArrays.h; sourceTree = "<group>"; };
 		4859A21521246CF50028300D /* FindMedianSortedArrays.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = FindMedianSortedArrays.c; sourceTree = "<group>"; };
+		4859A2172125C0030028300D /* IsMatch.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IsMatch.h; sourceTree = "<group>"; };
+		4859A2182125C0030028300D /* IsMatch.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = IsMatch.c; sourceTree = "<group>"; };
+		4859A21A2125CAB70028300D /* base64.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = base64.h; sourceTree = "<group>"; };
+		4859A21B2125CAB70028300D /* base64.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = base64.c; sourceTree = "<group>"; };
 		82BCA8742121127A00F0E794 /* IsSameTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IsSameTree.h; sourceTree = "<group>"; };
 		82BCA8752121127A00F0E794 /* IsSameTree.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = IsSameTree.c; sourceTree = "<group>"; };
 		82BCA9092123B67D00F0E794 /* removeNthFromEnd.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = removeNthFromEnd.h; sourceTree = "<group>"; };
@@ -164,6 +170,8 @@
 				E188BE0F1F3A7C25004D0450 /* LaunchScreen.storyboard */,
 				E188BE121F3A7C25004D0450 /* Info.plist */,
 				E188BE011F3A7C25004D0450 /* Supporting Files */,
+				4859A21A2125CAB70028300D /* base64.h */,
+				4859A21B2125CAB70028300D /* base64.c */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -224,6 +232,8 @@
 				E188BE601F3CAA9F004D0450 /* PalindromeNumber.h */,
 				4859A21421246CF50028300D /* FindMedianSortedArrays.h */,
 				4859A21521246CF50028300D /* FindMedianSortedArrays.c */,
+				4859A2172125C0030028300D /* IsMatch.h */,
+				4859A2182125C0030028300D /* IsMatch.c */,
 			);
 			path = "1-10";
 			sourceTree = "<group>";
@@ -383,6 +393,7 @@
 				E188BE6C1F3DA61D004D0450 /* IntegerToRoman.c in Sources */,
 				E1CC72CB1F4AD47D002FB390 /* MxCommon.c in Sources */,
 				E141994E1F542FD200136735 /* LongestCommonPrefix.c in Sources */,
+				4859A2192125C0030028300D /* IsMatch.c in Sources */,
 				E194D8BD206DA25A00B43467 /* RemoveElement.c in Sources */,
 				E188BE961F4922F6004D0450 /* MergeTwoSortedLists.c in Sources */,
 				E188BE521F3C161C004D0450 /* StringToInteger.c in Sources */,
@@ -408,6 +419,7 @@
 				E188BE5B1F3C5EBA004D0450 /* LongestPalindromicSubstring.c in Sources */,
 				E1E62EBE211C99240027B7CD /* DeleteDuplicates.c in Sources */,
 				E188BE641F3CB83D004D0450 /* MostWater.c in Sources */,
+				4859A21C2125CAB70028300D /* base64.c in Sources */,
 				E188BE5E1F3C7F9D004D0450 /* ReverseInteger.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
