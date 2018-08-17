@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#include "base64.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    //dealImage();
+    
     return YES;
 }
 

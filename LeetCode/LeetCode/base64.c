@@ -63,7 +63,7 @@ int base64_encode(const unsigned char * sourcedata, char * base64)
     
     base64[j] = '\0';
     
-    return 0;
+    return j;
 }
 
 /** 在字符串中查询特定字符位置索引
@@ -72,7 +72,7 @@ int base64_encode(const unsigned char * sourcedata, char * base64)
  */
 int num_strchr(const char *str, char c)
 {
-    const char *pindex = strchr(str, c);
+    char *pindex = strchr(str, c);
     if (NULL == pindex){
         return -1;
     }
@@ -116,7 +116,7 @@ int base64_decode(const char * base64, unsigned char * dedata)
     
     dedata[j] = '\0';
     
-    return 0;
+    return j;
 }
 
 //test
