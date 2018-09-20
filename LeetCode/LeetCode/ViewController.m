@@ -65,6 +65,7 @@
                       @[@"27.Remove Element", @"on27"],
                       @[@"28.Implement strStr", @"on28"],
                       
+                      @[@"31. Next Permutation", @"on31"],
                       @[@"35.Search Insert Position", @"on35"],
                       
                       @[@"53.Maximum Subarray", @"on53"],
@@ -240,6 +241,11 @@
     char *str2 = "llo";
     int index = MyStrStr(str1, str2);
     NSLog(@"%d", index);
+}
+
+-(void)on31
+{
+    
 }
 
 -(void)on35

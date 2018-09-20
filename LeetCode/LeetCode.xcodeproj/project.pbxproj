@@ -38,6 +38,7 @@
 		E1C6B8FE20767CC3005B2B1A /* MaxSubArray.c in Sources */ = {isa = PBXBuildFile; fileRef = E1C6B8FD20767CC3005B2B1A /* MaxSubArray.c */; };
 		E1CC72C81F4AC58A002FB390 /* ValidParentheses.c in Sources */ = {isa = PBXBuildFile; fileRef = E1CC72C61F4AC58A002FB390 /* ValidParentheses.c */; };
 		E1CC72CB1F4AD47D002FB390 /* MxCommon.c in Sources */ = {isa = PBXBuildFile; fileRef = E1CC72C91F4AD47D002FB390 /* MxCommon.c */; };
+		E1CFE21F2153EB4A0097DAC4 /* NextPermutation.c in Sources */ = {isa = PBXBuildFile; fileRef = E1CFE21D2153EB4A0097DAC4 /* NextPermutation.c */; };
 		E1E62EBE211C99240027B7CD /* DeleteDuplicates.c in Sources */ = {isa = PBXBuildFile; fileRef = E1E62EBC211C99240027B7CD /* DeleteDuplicates.c */; };
 		E1E62EC1211C9C840027B7CD /* MergeSortedArray.c in Sources */ = {isa = PBXBuildFile; fileRef = E1E62EBF211C9C840027B7CD /* MergeSortedArray.c */; };
 		E1F17F792079AE46003C69D6 /* LengthOfLastWord.c in Sources */ = {isa = PBXBuildFile; fileRef = E1F17F782079AE46003C69D6 /* LengthOfLastWord.c */; };
@@ -106,6 +107,8 @@
 		E1CC72C71F4AC58A002FB390 /* ValidParentheses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ValidParentheses.h; sourceTree = "<group>"; };
 		E1CC72C91F4AD47D002FB390 /* MxCommon.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = MxCommon.c; sourceTree = "<group>"; };
 		E1CC72CA1F4AD47D002FB390 /* MxCommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MxCommon.h; sourceTree = "<group>"; };
+		E1CFE21D2153EB4A0097DAC4 /* NextPermutation.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = NextPermutation.c; sourceTree = "<group>"; };
+		E1CFE21E2153EB4A0097DAC4 /* NextPermutation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextPermutation.h; sourceTree = "<group>"; };
 		E1E62EBC211C99240027B7CD /* DeleteDuplicates.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = DeleteDuplicates.c; sourceTree = "<group>"; };
 		E1E62EBD211C99240027B7CD /* DeleteDuplicates.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DeleteDuplicates.h; sourceTree = "<group>"; };
 		E1E62EBF211C9C840027B7CD /* MergeSortedArray.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MergeSortedArray.c; sourceTree = "<group>"; };
@@ -277,6 +280,8 @@
 			children = (
 				E170E2FD206DD5000062758F /* SearchInsert.c */,
 				E170E2FE206DD5000062758F /* SearchInsert.h */,
+				E1CFE21D2153EB4A0097DAC4 /* NextPermutation.c */,
+				E1CFE21E2153EB4A0097DAC4 /* NextPermutation.h */,
 			);
 			path = "31-40";
 			sourceTree = "<group>";
@@ -399,6 +404,7 @@
 				E188BE521F3C161C004D0450 /* StringToInteger.c in Sources */,
 				E188BE611F3CAA9F004D0450 /* PalindromeNumber.c in Sources */,
 				E1CC72C81F4AC58A002FB390 /* ValidParentheses.c in Sources */,
+				E1CFE21F2153EB4A0097DAC4 /* NextPermutation.c in Sources */,
 				82BCA90B2123B67D00F0E794 /* removeNthFromEnd.c in Sources */,
 				82BCA8762121127A00F0E794 /* IsSameTree.c in Sources */,
 				E188BE091F3A7C25004D0450 /* ViewController.m in Sources */,
